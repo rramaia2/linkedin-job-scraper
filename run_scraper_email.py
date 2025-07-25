@@ -23,7 +23,7 @@ if new_jobs:
     # Prepare HTML
     body = "<h3>🧑‍💻 New LinkedIn Software Engineer Jobs</h3><ul>"
     for job in new_jobs:
-        body += f"<li><b>{job['title']}</b> at {job['company']} - {job['location']}<br><a href='{job['url']}'>Apply</a></li>"
+        body += f"<li><b>{job['title']} at {job['company']}</b><br>📍 {job['location']}<br><a href='{job['url']}'>Apply</a></li>"
     body += "</ul>"
 
     # Send Email
