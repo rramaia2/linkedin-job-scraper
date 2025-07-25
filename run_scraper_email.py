@@ -5,6 +5,9 @@ from linkedin_scraper import get_jobs
 
 GMAIL_USER = os.environ["GMAIL_USER"]
 GMAIL_PASS = os.environ["GMAIL_PASS"]
+# Set your environment variables in your shell before running this script:
+# export GMAIL_USER='your_email@gmail.com'
+# export GMAIL_PASS='your_gmail_app_password'
 
 # Load previous sent jobs
 if os.path.exists("sent_jobs.json"):
